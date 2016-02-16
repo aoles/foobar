@@ -8,9 +8,9 @@
 \S4method{display}{numeric}(x)
 }
 \arguments{
-\item{x}{MyClass object}
+\item{x}{numeric}
 }
 \description{
-Display method for MyClass objects
+Display method for numerics
 }
 

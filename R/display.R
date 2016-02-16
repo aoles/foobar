@@ -1,6 +1,7 @@
 #' Display
 #'
-#' Display method for MyClass objects
+#' Display method for numerics
 #'
-#' @param x MyClass object
+#' @param x numeric
+#' @export
 setMethod ("display", signature(x = "numeric"), function(x) cat(x, "\n"))

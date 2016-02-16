@@ -1,0 +1,11 @@
+Package: foobar
+Type: Package
+Title: The FooBar Package
+Version: 0.1.0
+Author: Andrzej Oles
+Maintainer: Andrzej Oles <andrzej.oles@embl.de>
+Description: Description of package FooBar.
+License: LGPL
+Imports: EBImage, methods
+LazyData: TRUE
+RoxygenNote: 5.0.1

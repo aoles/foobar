@@ -1,0 +1,4 @@
+importFrom("methods", "setClass", "setMethod")
+importFrom("EBImage", "display")
+
+exportMethods("display")

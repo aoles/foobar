@@ -1,6 +1,9 @@
 #' Display
 #'
-#' Display method for MyClass objects
+#' Display method for numerics
 #'
-#' @param x MyClass object
-setMethod ("display", signature(x = "numeric"), function(x) cat(x, "\n"))
+#' @param x numeric
+#' @importFrom methods setMethod
+#' @importFrom EBImage display
+#' @exportMethod display
+setMethod("display", signature(x = "numeric"), function(x) cat(x, "\n"))

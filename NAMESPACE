@@ -1,4 +1,4 @@
-importFrom("methods", "setClass", "setMethod")
+importFrom("methods", "setMethod")
 importFrom("EBImage", "display")
 
 exportMethods("display")
